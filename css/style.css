@@ -182,11 +182,9 @@ ul li {
 
 .name__title{
     margin-bottom: 40px;
-    margin-left: 180px;
     color: #4338CA;
-    display: flex;
-    align-items: center;
-    
+    text-align: start;
+    display: inline-block;
 }
 
 .main__title {
@@ -277,10 +275,8 @@ ul li {
     }
     .name__title{
         margin-bottom: 40px;
-        margin-left: 110px;
+
         color: #4338CA;
-        display: flex;
-        align-items: center;
         
     }
     
@@ -308,6 +304,12 @@ ul li {
         padding-right: 0px;
         margin-bottom: 120px;
     }
+    .name__title{
+        margin-bottom: 40px;
+        color: #4338CA;
+        text-align: center;
+        
+    }
 }
 
 @media (max-width: 767.98px){
@@ -325,14 +327,7 @@ ul li {
     .read__button {
         margin-left: 5px;
     }
-    .name__title{
-        margin-bottom: 40px;
-        margin-left: 110px;
-        color: #4338CA;
-        display: flex;
-        align-items: center;
-        
-    }
+    
 
     
 }
