@@ -471,6 +471,7 @@ ul li {
     }
     .about-work__title {
         font-size: 34px;
+        margin: 0px 0px 0px 0px;
     }
 }
 
@@ -498,7 +499,7 @@ ul li {
     .about-work__title {
         font-size: 19px;
         line-height: 30px;
-        margin-top: 70px;
+        margin: 50px 0px 0px 0px;
     }
 }
 
