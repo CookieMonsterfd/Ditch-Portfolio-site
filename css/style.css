@@ -163,6 +163,9 @@ ul li {
 .page__benefits {
 }
 
+.page__careers {
+}
+
 /*----------------------------------------------*/
 
 .title {
@@ -924,16 +927,83 @@ ul li {
     }
 }
 
+/*----------------------------------------------*/
+
+.careers {
+}
+.careers__container {
+}
+.careers__title {
+    margin-top: 120px;
+}
+.careers-content__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.careers-items {
+
+}
 
 
 
+.careers-items-1 {
+
+}
+
+.careers-items-2 {
+    text-align: center;
+}
+
+.careers-items-3 {
+    text-align: end;
+}
+
+.careers-item {
+    padding-bottom: 80px;
+}
+.careers-main-item {
+    text-transform: uppercase;
+    padding: 150px 0px 80px 0px;
+
+}
+
+.careers-minor-item {
+    
+}
+
+.careers-minor-item span{
+    font-weight: 600;
+}
 
 
+@media (max-width: 645.98px) {
+    .careers-item {
+        font-size: 11px;
 
+    }
+}
 
+@media (max-width: 479.98px) {
+    .careers-item {
+        font-size: 9px;
+        
+    }
+}
 
+@media (max-width: 400.98px) {
+    .careers-item {
+        font-size: 7px;
+        
+    }
+    .careers-content__container {
 
+        gap: 1px;
 
+    }
+}
 
+@media (max-width: 350.98px) {
+    .careers-items-2 {
+    }
 
-
+}
