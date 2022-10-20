@@ -993,11 +993,11 @@ ul li {
 @media (max-width: 400.98px) {
     .careers-item {
         font-size: 7px;
-        
+        font-weight: 500;
     }
     .careers-content__container {
 
-        gap: 1px;
+        gap: 0px;
 
     }
 }
